@@ -1,16 +1,10 @@
-/*! ------------------------------------------------------------------
- # Template Name: Abildon - Agency & Portfolio Template
- # Author: FLexPlate (https://ui8.net/flexplate/products)
- # Description: Agency & Portfolio Template
- # Version: 1.0.0
--------------------------*/
+
 
 @import 'variables';
 @import 'mixins';
 @import 'typography';
 @import 'buttons';
 @import 'common';
-@import 'index';
 
 @import 'templates/navigation';
 @import 'templates/banner';
@@ -21,5 +15,4 @@
 @import 'templates/work-process';
 @import 'templates/blogs';
 @import 'templates/about';
-@import 'templates/pricing';
 @import 'templates/footer';
