@@ -16,6 +16,9 @@
   <link rel="stylesheet" href="plugins/line-awesome/css/line-awesome.min.css">
   <link rel="stylesheet" href="plugins/swiper/swiper-bundle.min.css">
 
+  <!-- Calendly link -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+
   <!-- main stylesheet -->
   <link href="./assets/css/style/style.css" rel="stylesheet">
 
@@ -70,7 +73,7 @@
             </ul>
             <!-- navbar actions -->
             <div class="navbar-actions">
-              <a href="privacy.html" class="btn btn-white" data-text="Book a call" target="_blank" rel="nofollow"><span>Book a call</span></a>
+              <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/chaitrarao'});return false;" class="btn btn-white" data-text="Book a call" target="_blank" rel="nofollow"><span>Book a call</span></a>
             </div>
           </div>
         </nav>
@@ -193,7 +196,7 @@
         <ul class="footer-link list-unstyled">
           <li><a href="blogs-1-col.html">Blog</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li><a href="#">Book a call</a></li>
+          <li><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/chaitrarao'});return false;">Book a call</a></li>
         </ul>
       </div>
       <div class="col-12">
@@ -226,6 +229,7 @@
 <script src="plugins/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="plugins/swiper/swiper-bundle.min.js"></script>
 <script src="plugins/isotope/isotope.min.js"></script>
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
 <!-- Main Script -->
 <script src="assets/js/script.js"></script>

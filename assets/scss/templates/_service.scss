@@ -3,6 +3,7 @@
   padding: 0 10px;
   margin-bottom: 45px;
 }
+
 .service-icon-lg {
   position: absolute;
   width: calc(70% - 30px);
@@ -12,11 +13,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .service-info-list {
   padding-left: 0px;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 0;
+
   li {
     list-style-type: none;
     margin-bottom: 10px;
@@ -24,5 +27,40 @@
     flex: 0 0 calc(47% - 5px);
     width: 100%;
     margin-right: 5px;
+  }
+}
+
+@include mobile-md {
+  .order {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
+
+@include mobile-xs {
+  .order {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
+
+@include mobile {
+  .order {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
+
+@include tablet {
+  .order {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
+
+@include desktop{
+  .order {
+    display: flex;
+    flex-flow: column-reverse;
   }
 }

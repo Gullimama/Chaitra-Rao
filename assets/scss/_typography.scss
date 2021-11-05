@@ -1,8 +1,11 @@
 /* typography */
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 
 
+@include font-face("ClearfaceRegular", "../../fonts/ClearfaceRegular", 500, normal); 
+@include font-face("ClearfaceBold", "../../fonts/ClearfaceBold", 700, normal); 
+@include font-face("CentraNo2", "../../fonts/CentraNo2", 500, normal); 
 
 body {
   font-family: $font-primary;
