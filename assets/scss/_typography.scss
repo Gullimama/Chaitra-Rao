@@ -3,17 +3,16 @@
 
 
 
-@include font-face("ClearfaceRegular", "../../fonts/ClearfaceRegular", 500, normal); 
-@include font-face("ClearfaceBold", "../../fonts/ClearfaceBold", 700, normal); 
 @include font-face("CentraNo2", "../../fonts/CentraNo2", 500, normal); 
+@include font-face("Clearface-Regular", "../../fonts/Clearface-regular", 500, normal, otf); 
 
 body {
   font-family: $font-primary;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   font-size: $body-text-size;
-  color: $white;
-  background-color: $color-dark;
+  color: $black;
+  background-color: $color-light;
   line-height: 1.6;
 }
 

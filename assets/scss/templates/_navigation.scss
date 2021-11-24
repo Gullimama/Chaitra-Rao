@@ -1,6 +1,6 @@
 // navbar brand/logo style
 .navbar-brand {
-  color: $white !important;
+  color: $black !important;
   font-size: 30px;
 
   img {
@@ -24,7 +24,7 @@
   svg {
     height: 22px;
     width: 22px;
-    fill: $white;
+    fill: $black;
     transition: opacity .3s;
   }
 
@@ -93,7 +93,7 @@
 // navbar-dark style
 .navbar-dark {
   .navbar-toggler svg {
-    color: rgb(161, 145, 145);
+    color: $black;
   }
 
   .navbar-nav .nav-link {
@@ -122,7 +122,7 @@
   z-index: 9992;
   transition: transform .5s cubic-bezier(.2, 1, .2, 1), -webkit-transform .5s cubic-bezier(.2, 1, .2, 1);
   will-change: transform;
-  background-color: $color-dark;
+  background-color: $color-light;
 
   &.visible {
     transition: 0s;
