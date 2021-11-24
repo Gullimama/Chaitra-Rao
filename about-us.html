@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html><head>
+<html>
+
+<head>
 
   <!-- meta tags -->
   <meta charset="utf-8">
@@ -23,494 +25,470 @@
   <!-- main stylesheet -->
   <link href="./assets/css/style/style.css" rel="stylesheet">
 
-</head><body>
+</head>
 
-<!-- scroll-progress & goto-top -->
-<div class="scroll-progress cursor-pointer">
-  <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
-  </svg>
-</div>
-<!-- start of navigation -->
-<div class="adjust-navigation-height"></div>
+<body>
 
-<header class="navigation">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <nav class="navbar navbar-expand-lg navbar-dark px-0 py-3 py-lg-4">
-          <!-- navbar logo -->
-          <a class="navbar-brand font-weight-bold mb-0" href="index.html" title="Abildon">
-            <img src="assets/images/Chaitra Rao.svg" alt="Abildon">
-          </a>
+  <!-- scroll-progress & goto-top -->
+  <div class="scroll-progress cursor-pointer">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <!-- start of navigation -->
+  <div class="adjust-navigation-height"></div>
+
+  <header class="navigation">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-dark px-0 py-3 py-lg-4">
+            <!-- navbar logo -->
+            <a class="navbar-brand font-weight-bold mb-0" href="index.html" title="Abildon">
+              <img src="assets/images/Chaitra Rao.svg" alt="Abildon">
+            </a>
+
+            <!-- navbar-toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="navbar-menu">
+              <svg viewBox="0 0 341.333 341.333">
+                <g>
+                  <g>
+                    <rect y="277.333" width="341.333" height="42.667" />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <rect y="149.333" width="341.333" height="42.667" />
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <rect y="21.333" width="341.333" height="42.667" />
+                  </g>
+                </g>
+                <g> </g>
+                <g> </g>
+                <g> </g>
+                <g> </g>
+                <g> </g>
+                <g> </g>
+                <g> </g>
+                <g> </g>
+                <g> </g>
+                <g> </g>
+                <g> </g>
+                <g> </g>
+                <g> </g>
+                <g> </g>
+                <g> </g>
+              </svg>
+            </button>
+
+            <!-- sidenav-overlay -->
+            <div class="sidenav-overlay"></div>
+
+            <!-- navbar links -->
+            <div class="navbar-collapse" id="navbar-menu">
+              <ul class="navbar-nav mx-auto">
+                <li data-toggle="navbar-menu-close"><i class="las la-times mr-1"></i>Close</li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="about-us.html" role="button" aria-haspopup="true"
+                    aria-expanded="false">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="services.html" role="button" aria-haspopup="true"
+                    aria-expanded="false">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="blogs-1-col.html" role="button" aria-haspopup="true"
+                    aria-expanded="false">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="portfolio-floating.html" role="button" aria-haspopup="true"
+                    aria-expanded="false">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <!-- navbar actions -->
+              <div class="navbar-actions">
+                <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/chaitrarao'});return false;"
+                  class="btn btn-light-red" data-text="Book a call" target="_blank" rel="nofollow"><span>Book a
+                    call</span></a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- end of navigation -->
+
+  <!-- start of page-header -->
+  <section class="page-header">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="my-0 my-lg-5">
+            <p class="mb-3 font-weight-500 has-anim fade">Who We Are</p>
+            <h2 class="text-light font-weight-500 has-anim fade anim-delay-1">We believe in designing the best
+              interfaces. We create everything digital and analytical 🔥</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of page-header -->
+
+  <!-- start of about -->
+  <section class="section bg-white">
+    <div class="container">
+      <div class="row justify-content-start justify-content-lg-around align-items-center">
+        <div class="col-xl-5 col-lg-5 col-md-8 has-anim">
+          <h3 class="lead text-dark mb-3 has-anim fade">Chapter 1 - About me</h3>
+          <!-- <img loading="lazy" class="img-fluid" src="assets/images/about-image.jpg" alt=""> -->
+        </div>
+        <div class="col-xl-5 col-lg-6 mt-5 mt-lg-0">
+          <h3 class="lead text-dark mb-3 has-anim fade">I partner with ambitious advisory companies to create
+            market-leading brands and experiences. It’s that simple.</h3>
+
+          <!-- <p class=" text-dark has-anim fade anim-delay-1">We build thoughtful digital experiences for the modern world. We have created an environment to encourage warm exchanges around brands. In a permanent adaptation, the ideas are concretized by the bonds which we weave between our customers and our talents.</p> -->
+
+          <a href="contact.html" class="btn btn-dark mt-5 has-anim fade anim-delay-2"
+            data-text="Contact Us"><span>Contact Us</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of about -->
+
   
-          <!-- navbar-toggler -->
-          <button class="navbar-toggler" type="button" data-toggle="navbar-menu">
-            <svg viewBox="0 0 341.333 341.333"> <g> <g> <rect y="277.333" width="341.333" height="42.667"/> </g> </g> <g> <g> <rect y="149.333" width="341.333" height="42.667"/> </g> </g> <g> <g> <rect y="21.333" width="341.333" height="42.667"/> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
-          </button>
-  
-          <!-- sidenav-overlay -->
-          <div class="sidenav-overlay"></div>
-            
-          <!-- navbar links -->
-          <div class="navbar-collapse" id="navbar-menu">
-            <ul class="navbar-nav mx-auto">
-              <li data-toggle="navbar-menu-close"><i class="las la-times mr-1"></i>Close</li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="about-us.html" role="button"  aria-haspopup="true" aria-expanded="false">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="services.html" role="button"  aria-haspopup="true" aria-expanded="false">Services</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="blogs-1-col.html" role="button"  aria-haspopup="true" aria-expanded="false">Blog</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="portfolio-floating.html" role="button"  aria-haspopup="true" aria-expanded="false">Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-            <!-- navbar actions -->
-            <div class="navbar-actions">
-              <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/chaitrarao'});return false;" class="btn btn-white" data-text="Book a call" target="_blank" rel="nofollow"><span>Book a call</span></a>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </div>
-</header>
-<!-- end of navigation -->
-
-<!-- start of page-header -->
-<section class="page-header">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-10">
-        <div class="my-0 my-lg-5">
-          <p class="mb-3 font-weight-500 has-anim fade">Who We Are</p>
-          <h2 class="text-light font-weight-500 has-anim fade anim-delay-1">We believe in designing the best interfaces. We create everything digital and analytical 🔥</h2>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end of page-header -->
-
-<!-- start of about -->
-<section class="section bg-white">
-  <div class="container">
-    <div class="row justify-content-start justify-content-lg-around align-items-center">
-      <div class="col-xl-5 col-lg-5 col-md-8 has-anim">
-        <img loading="lazy" class="img-fluid" src="assets/images/about-image.jpg" alt="">
-      </div>
-      <div class="col-xl-5 col-lg-6 mt-5 mt-lg-0">
-        <p class="lead text-dark mb-3 has-anim fade">As a full-service digital agency 👋, we work closely with our clients to define, design and develop transformative user experiences across all platforms and brand’s touchpoints.</p>
-
-        <p class="has-anim fade anim-delay-1">We build thoughtful digital experiences for the modern world. We have created an environment to encourage warm exchanges around brands. In a permanent adaptation, the ideas are concretized by the bonds which we weave between our customers and our talents.</p>
-
-        <a href="contact.html" class="btn btn-dark mt-5 has-anim fade anim-delay-2" data-text="Contact Us"><span>Contact Us</span></a>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end of about -->
-
-<!-- start of facts -->
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-center text-center">
-      <div class="col-lg-12">
-        <div class="row justify-content-center">
-          <div class="col-md-3 col-sm-6 facts-box">
-            <div class="block has-anim fade">
-              <h1 class="facts-box-title text-light">110+</h1>
-              <p class="font-weight-500">Websites & Apps <br> launched</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 facts-box">
-            <div class="block mt-5 mt-sm-0 has-anim fade anim-delay-2">
-              <h1 class="facts-box-title text-light">100%</h1>
-              <p class="font-weight-500">In-house &amp; <br> independent</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 facts-box">
-            <div class="block mt-5 mt-md-0 has-anim fade anim-delay-3">
-              <h1 class="facts-box-title text-light">50+</h1>
-              <p class="font-weight-500">Awards &amp; <br> recognition</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 facts-box">
-            <div class="block mt-5 mt-md-0 has-anim fade anim-delay-4">
-              <h1 class="facts-box-title text-light">20K+</h1>
-              <p class="font-weight-500">Satisfied <br> clients</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end of facts -->
-
-<!-- start of team-carousel -->
-<section class="section bg-white team-group-carousel overflow-hidden">
-  <div class="container">
-    <div class="row justify-content-start justify-content-lg-around align-items-center">
-      <div class="col-12">
-        <div class="swiper-container overflow-initial">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide">
-              <div class="team-group-image has-anim fade">
-                <img src="assets/images/team-group/team-grp-05.jpg" alt="team">
+  <!-- start of team-carousel -->
+  <section class="section bg-white team-group-carousel overflow-hidden">
+    <div class="container">
+      <div class="row justify-content-start justify-content-lg-around align-items-center">
+        <div class="col-12">
+          <div class="swiper-container overflow-initial">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
+                <div class="team-group-image has-anim fade">
+                  <img src="assets/images/team-group/team-grp-05.jpg" alt="team">
+                </div>
               </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="team-group-image has-anim fade">
-                <img src="assets/images/team-group/team-grp-04.jpg" alt="team">
+              <div class="swiper-slide">
+                <div class="team-group-image has-anim fade">
+                  <img src="assets/images/team-group/team-grp-04.jpg" alt="team">
+                </div>
               </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="team-group-image has-anim fade">
-                <img src="assets/images/team-group/team-grp-03.jpg" alt="team">
+              <div class="swiper-slide">
+                <div class="team-group-image has-anim fade">
+                  <img src="assets/images/team-group/team-grp-03.jpg" alt="team">
+                </div>
               </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="team-group-image has-anim fade">
-                <img src="assets/images/team-group/team-grp-01.jpg" alt="team">
+              <div class="swiper-slide">
+                <div class="team-group-image has-anim fade">
+                  <img src="assets/images/team-group/team-grp-01.jpg" alt="team">
+                </div>
               </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="team-group-image has-anim fade">
-                <img src="assets/images/team-group/team-grp-00.jpg" alt="team">
+              <div class="swiper-slide">
+                <div class="team-group-image has-anim fade">
+                  <img src="assets/images/team-group/team-grp-00.jpg" alt="team">
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- end of team-carousel -->
+  </section>
+  <!-- end of team-carousel -->
 
-<!-- start of clients -->
-<section class="section">
-  <div class="container">
-    <div class="section pt-0">
-      <div class="review-carousel review-carousel-light">
-        <div class="row justify-content-center">
-          <div class="col-lg-9 has-anim">
-            <div class="swiper-container">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="review-item">
-                    <div class="review-icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16"> <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/> <path d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/> </svg>
+  <!-- start of about -->
+  <section class="section bg-white">
+    <div class="container">
+      <div class="row justify-content-start justify-content-lg-around align-items-center">
+        <div class="col-xl-5 col-lg-5 col-md-8 has-anim">
+          <h1 class=" text-dark mb-3 has-anim fade">This I believe</h1>
+
+          <p class=" text-dark has-anim fade anim-delay-1">In today's world where everything from cars to coffee mugs
+            are available in abundance, consumers don't just look for function anymore - they're seeking out objects or
+            businesses who stand apart by having some sort of personal meaning behind them like their favorite sports
+            team logo or passion.</p>
+        </div>
+        <div class="col-xl-5 col-lg-6 mt-5 mt-lg-0">
+          <p class=" text-dark mb-3 has-anim fade">Ever since the age of antiquity, humans have sought to create things
+            that are not only functional but also aesthetically pleasing. In our current society, there is a trend for
+            people and companies alike to want products with personality; something they can connect with on an
+            emotional level. I believe in this philosophy wholeheartedly and design every project I release full of
+            brand personality so as your prospects surf through online looking for "the perfect adviser," make sure
+            “you’re the one”!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of about -->
+
+  <!-- start of clients -->
+  <section class="section">
+    <div class="container">
+      <!-- <div class="section pt-0">
+        <div class="review-carousel review-carousel-light">
+          <div class="row justify-content-center">
+            <div class="col-lg-9 has-anim">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="review-item">
+                      <div class="review-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                          viewBox="0 0 16 16">
+                          <path
+                            d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                          <path
+                            d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z" />
+                        </svg>
+                      </div>
+                      <h3 class="review-text">“If you aren't sure, always go for this theme. I would like to personally
+                        thank you for this outstanding product.”</h3>
+                      <span class="review-author">Margarita Univel - Belbon Inc.</span>
                     </div>
-                    <h3 class="review-text">“If you aren't sure, always go for this theme. I would like to personally thank you for this outstanding product.”</h3>
-                    <span class="review-author">Margarita Univel - Belbon Inc.</span>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="review-item">
+                      <div class="review-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                          viewBox="0 0 16 16">
+                          <path
+                            d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                          <path
+                            d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z" />
+                        </svg>
+                      </div>
+                      <h3 class="review-text">“After using abildon my business skyrocketed! I wish I would have it
+                        first. It is worth much more than I paid.”</h3>
+                      <span class="review-author">Callie Sheit - Brex Studio.</span>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="review-item">
+                      <div class="review-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                          viewBox="0 0 16 16">
+                          <path
+                            d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                          <path
+                            d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z" />
+                        </svg>
+                      </div>
+                      <h3 class="review-text">“I don't always clop, but I do it for this template, Abildon is the most
+                        valuable theme we have EVER purchased.”</h3>
+                      <span class="review-author">Sallyann Veniia - Alex Studio.</span>
+                    </div>
                   </div>
                 </div>
 
-                <div class="swiper-slide">
-                  <div class="review-item">
-                    <div class="review-icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16"> <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/> <path d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/> </svg>
-                    </div>
-                    <h3 class="review-text">“After using abildon my business skyrocketed! I wish I would have it first. It is worth much more than I paid.”</h3>
-                    <span class="review-author">Callie Sheit - Brex Studio.</span>
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="review-item">
-                    <div class="review-icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16"> <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/> <path d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/> </svg>
-                    </div>
-                    <h3 class="review-text">“I don't always clop, but I do it for this template, Abildon is the most valuable theme we have EVER purchased.”</h3>
-                    <span class="review-author">Sallyann Veniia - Alex Studio.</span>
-                  </div>
+                <div class="swipeCarousel-control">
+                  <div class="activeslide">01</div>
+                  <div class="totalslide">03</div>
                 </div>
               </div>
-
-              <div class="swipeCarousel-control">
-                <div class="activeslide">01</div>
-                <div class="totalslide">03</div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="clients-logo-grid">
-      <div class="logo-item">
-        <img loading="lazy" class="has-anim fade anim-delay-1" src="assets/images/Figma.svg" alt="client-image">
-      </div>
-      <div class="logo-item">
-        <img loading="lazy" class="has-anim fade" src="assets/images/Convertkit.svg" alt="client-image">
-      </div>
-      <div class="logo-item">
-        <img loading="lazy" class="has-anim fade anim-delay-2" src="assets/images/Hotjar.svg" alt="client-image">
-      </div>
-      <div class="logo-item">
-        <img loading="lazy" class="has-anim fade anim-delay-4" src="assets/images/Semrush.svg" alt="client-image">
-      </div>
-      <div class="logo-item">
-        <img loading="lazy" class="has-anim fade anim-delay-3" src="assets/images/Notion.svg" alt="client-image">
-      </div>
-      <div class="logo-item">
-        <img loading="lazy" class="has-anim fade anim-delay-3" src="assets/images/Typeform.svg" alt="client-image">
-      </div>
-      <div class="logo-item">
-        <img loading="lazy" class="has-anim fade anim-delay-3" src="assets/images/Slack.svg" alt="client-image">
-      </div>
-      <div class="logo-item">
-        <img loading="lazy" class="has-anim fade anim-delay-3" src="assets/images/Airtable.svg" alt="client-image">
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end of clients -->
-
-<!-- start of teams---> 
-<section class="section bg-white">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 has-anim fade">
-        <div class="section-title mb-4">
-          <p class="mb-2">Our Awesome</p>
-          <h2 class="title text-dark">Powerful Team</h2>
-        </div>
-      </div>
-    </div>
-    <div class="row row-team">
-      <div class="col-xl-4 col-lg-4 col-6">
-        <div class="team-item has-anim fade">
-          <div class="block overflow-hidden position-relative">
-            <img loading="lazy" class="img-fluid" src="assets/images/team/03.jpg" alt="Team Image">
-            <div class="social-profile d-flex align-items-end justify-content-center">
-              <ul class="list-unstyled list-inline mb-4 pb-2">
-                <li class="list-inline-item"><a href="#!"><i class="lab la-facebook-f"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-twitter"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-linkedin-in"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-github"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="mt-4 text-center">
-            <h4 class="h5 text-dark">Riddo Graham</h4>
-            <p class="h6 font-weight-400 mt-1">Ower &amp; Founder</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4 col-lg-4 col-6">
-        <div class="team-item has-anim fade anim-delay-1">
-          <div class="block overflow-hidden position-relative">
-            <img loading="lazy" class="img-fluid" src="assets/images/team/01.jpg" alt="Team Image">
-            <div class="social-profile d-flex align-items-end justify-content-center">
-              <ul class="list-unstyled list-inline mb-4 pb-2">
-                <li class="list-inline-item"><a href="#!"><i class="lab la-facebook-f"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-twitter"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-linkedin-in"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-github"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="mt-4 text-center">
-            <h4 class="h5 text-dark">Luis Fransisco</h4>
-            <p class="h6 font-weight-400 mt-1">Chief Product Maneger</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4 col-lg-4 col-6">
-        <div class="team-item has-anim fade anim-delay-2">
-          <div class="block overflow-hidden position-relative">
-            <img loading="lazy" class="img-fluid" src="assets/images/team/02.jpg" alt="Team Image">
-            <div class="social-profile d-flex align-items-end justify-content-center">
-              <ul class="list-unstyled list-inline mb-4 pb-2">
-                <li class="list-inline-item"><a href="#!"><i class="lab la-facebook-f"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-twitter"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-linkedin-in"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-github"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="mt-4 text-center">
-            <h4 class="h5 text-dark">Hena Linton</h4>
-            <p class="h6 font-weight-400 mt-1">Product Designer</p>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="col-xl-3 col-lg-4 col-6">
-        <div class="team-item has-anim fade anim-delay-3">
-          <div class="block overflow-hidden position-relative">
-            <img loading="lazy" class="img-fluid" src="assets/images/team/04.jpg" alt="Team Image">
-            <div class="social-profile d-flex align-items-end justify-content-center">
-              <ul class="list-unstyled list-inline mb-4 pb-2">
-                <li class="list-inline-item"><a href="#!"><i class="lab la-facebook-f"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-twitter"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-linkedin-in"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-github"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="mt-4 text-center">
-            <h4 class="h5 text-dark">Joshuwa Delgado</h4>
-            <p class="h6 font-weight-400 mt-1">Web Developer</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-4 col-6">
-        <div class="team-item has-anim fade">
-          <div class="block overflow-hidden position-relative">
-            <img loading="lazy" class="img-fluid" src="assets/images/team/05.jpg" alt="Team Image">
-            <div class="social-profile d-flex align-items-end justify-content-center">
-              <ul class="list-unstyled list-inline mb-4 pb-2">
-                <li class="list-inline-item"><a href="#!"><i class="lab la-facebook-f"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-twitter"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-github"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="mt-4 text-center">
-            <h4 class="h5 text-dark">Rubaik Jakson</h4>
-            <p class="h6 font-weight-400 mt-1">Markating Head</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-4 col-6">
-        <div class="team-item has-anim fade anim-delay-2">
-          <div class="block overflow-hidden position-relative">
-            <img loading="lazy" class="img-fluid" src="assets/images/team/06.jpg" alt="Team Image">
-            <div class="social-profile d-flex align-items-end justify-content-center">
-              <ul class="list-unstyled list-inline mb-4 pb-2">
-                <li class="list-inline-item"><a href="#!"><i class="lab la-facebook-f"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-github"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="mt-4 text-center">
-            <h4 class="h5 text-dark">Alentrona Shimla</h4>
-            <p class="h6 font-weight-400 mt-1">UI Artist</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-4 col-6">
-        <div class="team-item has-anim fade anim-delay-3">
-          <div class="block overflow-hidden position-relative">
-            <img loading="lazy" class="img-fluid" src="assets/images/team/07.jpg" alt="Team Image">
-            <div class="social-profile d-flex align-items-end justify-content-center">
-              <ul class="list-unstyled list-inline mb-4 pb-2">
-                <li class="list-inline-item"><a href="#!"><i class="lab la-facebook-f"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-github"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="mt-4 text-center">
-            <h4 class="h5 text-dark">Jason Moyer</h4>
-            <p class="h6 font-weight-400 mt-1">Business Consultant</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-4 col-6">
-        <div class="team-item has-anim fade anim-delay-1">
-          <div class="block overflow-hidden position-relative">
-            <img loading="lazy" class="img-fluid" src="assets/images/team/08.jpg" alt="Team Image">
-            <div class="social-profile d-flex align-items-end justify-content-center">
-              <ul class="list-unstyled list-inline mb-4 pb-2">
-                <li class="list-inline-item"><a href="#!"><i class="lab la-facebook-f"></i></a></li>
-                <li class="list-inline-item"><a href="#!"><i class="lab la-github"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="mt-4 text-center">
-            <h4 class="h5 text-dark">Luke Jones</h4>
-            <p class="h6 font-weight-400 mt-1">Graphic Designer</p>
           </div>
         </div>
       </div> -->
-
-      <div class="col-12 mt-5 pt-4 text-center has-anim fade">
-        <a class="btn btn-dark" href="team.html#open-positions" data-text="See Open Positions"><span>See Open Positions</span></a>
+      <div class="row justify-content-center">
+        <h1>Working with me, both on a professional and personal level means working with my values.</h1>
       </div>
-    </div>
-  </div>
-</section>
-<!-- end of teams -->
 
-<!-- start of footer -->
-<footer class="section-sm pb-4 has-anim">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="section-title">
-          <h4 class="h3 font-weight-light text-white">Let’s go get you some clients.<a href="contact.html"
-            class="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
-              fill="none" stroke="currentColor" stroke-width="2">
-              <line x1="7" y1="17" x2="17" y2="7"></line>
-              <polyline points="7 7 17 7 17 17"></polyline>
-            </svg></a></h4>
+      <div class="row justify-content-start justify-content-lg-around align-items-center">
+        <div class="col-xl-5 col-lg-5 col-md-8 has-anim">
+          <h1 class=" mb-3 mt-6 has-anim fade">We live for the delight</h1>
+
+          <p class=" has-anim fade anim-delay-1">In today's world where everything from cars to coffee mugs
+            are available in abundance, consumers don't just look for function anymore - they're seeking out objects or
+            businesses who stand apart by having some sort of personal meaning behind them like their favorite sports
+            team logo or passion.</p>
+        </div>
+        <div class="col-xl-5 col-lg-6 mt-5 mt-lg-0">
+          <p class=" mb-3 has-anim fade">Ever since the age of antiquity, humans have sought to create things
+            that are not only functional but also aesthetically pleasing. In our current society, there is a trend for
+            people and companies alike to want products with personality; something they can connect with on an
+            emotional level. I believe in this philosophy wholeheartedly and design every project I release full of
+            brand personality so as your prospects surf through online looking for "the perfect adviser," make sure
+            “you’re the one”!</p>
         </div>
       </div>
-      <div class="col-lg-5 col-md-5 mb-4 mb-lg-0">
-        <h4 class="font-weight-light mb-4"><a href="hello@chaitrarao.com" class="line-link">hello@chaitrarao.com</a></h4>
-
-        <p></p>
-        <p>Based in Bharat.</p>
-        <p>Working worldwide</p>
-        <p>IND LT: <script>document.write(new Date())</script></p>
-      </div>
-      <div class="col-lg-2 col-md-2 col-sm-4 col-6 ml-auto">
-        <ul class="footer-link list-unstyled">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about-us.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio-floating.html">Work</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-2 col-md-2 col-sm-4 col-6">
-        <ul class="footer-link list-unstyled">
-          <li><a href="blogs-1-col.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/chaitrarao'});return false;">Book a call</a></li>
-        </ul>
-      </div>
-      <div class="col-12">
-        <ul class="footer-link list-unstyled list-inline mt-4 mt-md-5">
-          <li class="list-inline-item"><a href="#!">Linkedin</a></li>
-          <li class="list-inline-item"><a href="#!">Medium</a></li>
-          <li class="list-inline-item"><a href="#!">Behance</a></li>
-          <li class="list-inline-item"><a href="#!">Dribble</a></li>
-        </ul>
       </div>
     </div>
-  </div>
-</footer>
-<!-- end of footer -->
-<!-- start of footer-bottom -->
-<section class="footer-bottom">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mb-5 pb-4">
-        <p class="h6 font-weight-light mb-2">Chaitrarao &copy; <script>document.write(new Date().getFullYear())</script>. <a href="privacy.html" class="line-link text-white font-weight-light">Privacy &amp; policy</a></p>
-        <p class="h6 font-weight-light">When you visit or interact with our sites, services or tools, we or our authorised service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes.</p>
+  </section>
+  <!-- end of clients -->
+
+  <!-- start of teams--->
+  <section class="section bg-white">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 has-anim fade">
+          <div class="section-title mb-4">
+            <p class="mb-2">Our Awesome</p>
+            <h2 class="title text-dark">Powerful Team</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row row-team">
+        <div class="col-xl-4 col-lg-4 col-6">
+          <div class="team-item has-anim fade">
+            <div class="block overflow-hidden position-relative">
+              <img loading="lazy" class="img-fluid" src="assets/images/team/03.jpg" alt="Team Image">
+              <div class="social-profile d-flex align-items-end justify-content-center">
+                <ul class="list-unstyled list-inline mb-4 pb-2">
+                  <li class="list-inline-item"><a href="#!"><i class="lab la-facebook-f"></i></a></li>
+                  <li class="list-inline-item"><a href="#!"><i class="lab la-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#!"><i class="lab la-linkedin-in"></i></a></li>
+                  <li class="list-inline-item"><a href="#!"><i class="lab la-github"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mt-4 text-center">
+              <h4 class="h5 text-dark">Riddo Graham</h4>
+              <p class="h6 font-weight-400 mt-1">Ower &amp; Founder</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-6">
+          <div class="team-item has-anim fade anim-delay-1">
+            <div class="block overflow-hidden position-relative">
+              <img loading="lazy" class="img-fluid" src="assets/images/team/01.jpg" alt="Team Image">
+              <div class="social-profile d-flex align-items-end justify-content-center">
+                <ul class="list-unstyled list-inline mb-4 pb-2">
+                  <li class="list-inline-item"><a href="#!"><i class="lab la-facebook-f"></i></a></li>
+                  <li class="list-inline-item"><a href="#!"><i class="lab la-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#!"><i class="lab la-linkedin-in"></i></a></li>
+                  <li class="list-inline-item"><a href="#!"><i class="lab la-github"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mt-4 text-center">
+              <h4 class="h5 text-dark">Luis Fransisco</h4>
+              <p class="h6 font-weight-400 mt-1">Chief Product Maneger</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-6">
+          <div class="team-item has-anim fade anim-delay-2">
+            <div class="block overflow-hidden position-relative">
+              <img loading="lazy" class="img-fluid" src="assets/images/team/02.jpg" alt="Team Image">
+              <div class="social-profile d-flex align-items-end justify-content-center">
+                <ul class="list-unstyled list-inline mb-4 pb-2">
+                  <li class="list-inline-item"><a href="#!"><i class="lab la-facebook-f"></i></a></li>
+                  <li class="list-inline-item"><a href="#!"><i class="lab la-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#!"><i class="lab la-linkedin-in"></i></a></li>
+                  <li class="list-inline-item"><a href="#!"><i class="lab la-github"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mt-4 text-center">
+              <h4 class="h5 text-dark">Hena Linton</h4>
+              <p class="h6 font-weight-400 mt-1">Product Designer</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 mt-5 pt-4 text-center has-anim fade">
+          <a class="btn btn-dark" href="team.html#open-positions" data-text="See Open Positions"><span>See Open
+              Positions</span></a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- end of footer-bottom -->
+  </section>
+  <!-- end of teams -->
 
-<!-- JS files -->
-<script src="plugins/jquery/jquery.min.js"></script>
-<script src="plugins/bootstrap/bootstrap.bundle.min.js"></script>
-<script src="plugins/swiper/swiper-bundle.min.js"></script>
-<script src="plugins/isotope/isotope.min.js"></script>
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+  <!-- start of footer -->
+  <footer class="section-sm pb-4 has-anim">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h4 class="h3 font-weight-light text-white">Let’s go get you some clients.<a href="contact.html"
+                class="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg></a></h4>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-5 mb-4 mb-lg-0">
+          <h4 class="font-weight-light mb-4"><a href="hello@chaitrarao.com" class="line-link">hello@chaitrarao.com</a>
+          </h4>
 
-<!-- Main Script -->
-<script src="assets/js/script.js"></script>
+          <p></p>
+          <p>Based in Bharat.</p>
+          <p>Working worldwide</p>
+          <p>IND LT: <script>
+              document.write(new Date())
+            </script>
+          </p>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6 ml-auto">
+          <ul class="footer-link list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio-floating.html">Work</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+          <ul class="footer-link list-unstyled">
+            <li><a href="blogs-1-col.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href=""
+                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/chaitrarao'});return false;">Book a
+                call</a></li>
+          </ul>
+        </div>
+        <div class="col-12">
+          <ul class="footer-link list-unstyled list-inline mt-4 mt-md-5">
+            <li class="list-inline-item"><a href="#!">Linkedin</a></li>
+            <li class="list-inline-item"><a href="#!">Medium</a></li>
+            <li class="list-inline-item"><a href="#!">Behance</a></li>
+            <li class="list-inline-item"><a href="#!">Dribble</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end of footer -->
+  <!-- start of footer-bottom -->
+  <section class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mb-5 pb-4">
+          <p class="h6 font-weight-light mb-2">Chaitrarao &copy; <script>
+              document.write(new Date().getFullYear())
+            </script>. <a href="privacy.html" class="line-link text-white font-weight-light">Privacy &amp; policy</a>
+          </p>
+          <p class="h6 font-weight-light">When you visit or interact with our sites, services or tools, we or our
+            authorised service providers may use cookies for storing information to help provide you with a better,
+            faster and safer experience and for marketing purposes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of footer-bottom -->
 
-</body></html>
+  <!-- JS files -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="plugins/swiper/swiper-bundle.min.js"></script>
+  <script src="plugins/isotope/isotope.min.js"></script>
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+  <!-- Main Script -->
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

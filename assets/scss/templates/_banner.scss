@@ -9,9 +9,11 @@
     padding-top: 60px;
   }
   .banner-title {
-    font-size: 56px;
-    font-weight: 300;
+    font-size: 57px;
+    font-weight: 400 !important
+    ;
     line-height: 1.2;
+    letter-spacing: -1.6px;
     // width: 446px;
     @include desktop {
       font-size: 50px;

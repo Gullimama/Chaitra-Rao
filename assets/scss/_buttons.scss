@@ -175,6 +175,18 @@
     border-color: $black;
   }
 }
+.btn-light-red{
+  background: $light-red;
+  color: $white;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: $white;
+    background: $light-red;
+    border-color: $light-red;
+  } 
+}
 
 .btn-circle-white,
 .btn-circle-black {
