@@ -68,16 +68,16 @@
 }
 
 .btn {
-  $btn-height: 50px;
+  $btn-height: 40px;
 
   font-size: 15px;
-  height: $btn-height;
+  height: 46px;
   line-height: $btn-height;
-  padding: 0 30px;
+  padding: 5px 27px;
   font-weight: 500;
   border: 0;
   outline: 0;
-  border-radius: 0;
+  border-radius: 5px;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -178,6 +178,8 @@
 .btn-light-red{
   background: $light-red;
   color: $white;
+  border: 1px solid $light-red;
+  border-radius: 5px;
 
   &:active,
   &:focus,
