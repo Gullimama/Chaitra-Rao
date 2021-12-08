@@ -9,23 +9,23 @@
     padding-top: 60px;
   }
   .banner-title {
-    font-size: 57px;
+    font-size: $h1;
     font-weight: 400 !important
     ;
     line-height: 1.2;
     letter-spacing: -1.6px;
     // width: 446px;
     @include desktop {
-      font-size: 50px;
+      font-size: $h1;
     }
     @include tablet {
-      font-size: 44px;
+      font-size: $h1-md;
     }
     @include mobile {
-      font-size: 38px;
+      font-size: $h2;
     }
     @include mobile-md {
-      font-size: 36px;
+      font-size: $h2-md;
     }
   }
   

@@ -4,6 +4,8 @@
   color: $white;
 }
 
+
+
 ul {
   list-style-type: none;
   margin: 0px;
@@ -232,10 +234,10 @@ button {
 
     .title {
       font-weight: 500;
-      font-size: 34px;
+      font-size: $h2-md;
 
       @include tablet {
-        font-size: 28px;
+        font-size: $h3;
       }
 
       &::after {
@@ -246,15 +248,25 @@ button {
   }
 }
 
+// bg-pink-section
+.bg-pink-section {
+  background: #FAF3EE;
+}
+
+// bg-green-section
+.bg_green-section {
+  background: #09454F
+}
+
 // lead text
 .lead {
-  font-size: 21px;
-  font-weight: 400;
-  letter-spacing: -1.5px;
-  line-height: 36px;
+  font-size: $h7-md;
+  font-weight: 500;
+  letter-spacing: -0.9px;
+  line-height: $h3-md;
 
   @include tablet {
-    font-size: 17px;
+    font-size: $h6;
   }
 }
 
@@ -379,6 +391,10 @@ a.text-primary:hover {
 
 a.text-dark:hover {
   color: $color-primary
+}
+
+.text-orange {
+  color: #FF743C;
 }
 
 .bg-dark {
@@ -625,6 +641,8 @@ a.text-dark:hover {
     max-width: 100%;
   }
 
+
+
   a:not(.btn) {
     color: lighten($black, 20.00);
     text-decoration: underline;
@@ -711,4 +729,66 @@ a.text-dark:hover {
 
 .title {
   font-family: $font-Secondary;
+  font-size: $h2-md;
+}
+
+#intro-img {
+  width: 400px;
+}
+
+#marsmellow_img {
+  width: 300px;
+}
+
+h4.font-weight-light.title.sub-title {
+  font-size: 23.04px;
+}
+
+.sub-title-1 {
+  font-size: $h3;
+}
+
+.margin-top {
+  margin-top: 18px;
+}
+
+.sub_section-1 {
+  margin-bottom: 70%;
+  margin-left: 35px;
+}
+
+.sub_section-2 {
+  margin-left: 35px;
+  margin-bottom: 36%;
+}
+
+.sub_section-3 {
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+.margin-left {
+  padding: 12px;
+}
+
+img#service-icon {
+  width: 90%;
+}
+
+.icon-section {
+  /* width: 80% !important; */
+
+  @include desktop {
+    margin-left: 25px;
+    padding-right: 100px;
+    padding-left: 150px;
+
+  }
+
+}
+.service-icon #service-icon{
+  width: 75%;
+  @include mobile{
+    width: 30%;
+  }
 }

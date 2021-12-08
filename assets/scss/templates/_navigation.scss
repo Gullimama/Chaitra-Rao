@@ -143,7 +143,7 @@
   .nav-item {
     .nav-link {
       padding: 20px 23px;
-      font-size: 15px;
+      font-size: $body-text-size;
 
       @media only screen and (max-width: 991px) {
         font-size: 35px;
@@ -166,11 +166,11 @@
 
   .navbar-light .navbar-nav .nav-link:focus,
   .navbar-light .navbar-nav .nav-link:hover {
-    color: $black;
+    color: rgba($black, .5);
   }
 
   .navbar-light .navbar-nav:hover .nav-item:not(:hover) .nav-link {
-    color: rgba($black, .5);
+    color: $black;
   }
 
   .dropdown-toggle {

@@ -17,7 +17,7 @@ body {
   font-family: CentraNo2;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
-  font-size: 13.33px;
+  font-size: 16px;
   color: #000;
   background-color: #F0F3F7;
   line-height: 1.6;
@@ -32,7 +32,7 @@ p,
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   margin: 0;
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 h4, h5, h6 {
@@ -40,49 +40,53 @@ h4, h5, h6 {
 }
 
 h1, .h1 {
-  font-size: 57.33px;
+  font-size: 58.45px;
 }
 
 @media (max-width: 767px) {
   h1, .h1 {
-    font-size: 47.78px;
+    font-size: 51.96px;
   }
 }
 
 h2, .h2 {
-  font-size: 39.81px;
+  font-size: 46.18px;
 }
 
 @media (max-width: 767px) {
   h2, .h2 {
-    font-size: 33.18px;
+    font-size: 41.05px;
   }
 }
 
 h3, .h3 {
-  font-size: 27.65px;
+  font-size: 36.49px;
 }
 
 @media (max-width: 767px) {
   h3, .h3 {
-    font-size: 26px;
+    font-size: 32.44px;
   }
 }
 
 h4, .h4 {
-  font-size: 23.04px;
+  font-size: 28.83px;
 }
 
 h5, .h5 {
-  font-size: 19.2px;
+  font-size: 25.63px;
 }
 
 h6, .h6 {
-  font-size: 16px;
+  font-size: 22.78px;
+}
+
+h7, .h7 {
+  font-size: 20.25px;
 }
 
 .footer__text {
-  font-size: 11.11px;
+  font-size: 14.22px;
 }
 
 .line-link {
@@ -211,13 +215,13 @@ h6, .h6 {
 
 .btn {
   font-size: 15px;
-  height: 50px;
-  line-height: 50px;
-  padding: 0 30px;
+  height: 46px;
+  line-height: 40px;
+  padding: 5px 27px;
   font-weight: 500;
   border: 0;
   outline: 0;
-  border-radius: 0;
+  border-radius: 5px;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -244,8 +248,8 @@ h6, .h6 {
 
 .btn span {
   display: inline-block;
-  height: 50px;
-  line-height: 50px;
+  height: 40px;
+  line-height: 40px;
   transition: transform 0.65s cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 0.65s cubic-bezier(0.2, 1, 0.3, 1), opacity 0.2s;
 }
 
@@ -259,7 +263,7 @@ h6, .h6 {
   opacity: 0;
   pointer-events: none;
   height: 100%;
-  line-height: 50px;
+  line-height: 40px;
   transition: transform 0.65s cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 0.65s cubic-bezier(0.2, 1, 0.3, 1), opacity 0.2s;
   -webkit-transform: scale(0.95) translateY(12px);
           transform: scale(0.95) translateY(12px);
@@ -316,6 +320,8 @@ h6, .h6 {
 .btn-light-red {
   background: #EF523C;
   color: #fff;
+  border: 1px solid #EF523C;
+  border-radius: 5px;
 }
 
 .btn-light-red:active, .btn-light-red:focus, .btn-light-red:hover {
@@ -711,12 +717,12 @@ button {
 
 .section-title .title {
   font-weight: 500;
-  font-size: 34px;
+  font-size: 41.05px;
 }
 
 @media (max-width: 767px) {
   .section-title .title {
-    font-size: 28px;
+    font-size: 36.49px;
   }
 }
 
@@ -725,16 +731,24 @@ button {
   color: #01CFC9;
 }
 
+.bg-pink-section {
+  background: #FAF3EE;
+}
+
+.bg_green-section {
+  background: #09454F;
+}
+
 .lead {
-  font-size: 21px;
-  font-weight: 400;
-  letter-spacing: -1.5px;
-  line-height: 36px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.9px;
+  line-height: 32.44px;
 }
 
 @media (max-width: 767px) {
   .lead {
-    font-size: 17px;
+    font-size: 22.78px;
   }
 }
 
@@ -881,6 +895,10 @@ a.text-dark:hover,
 .content a.h5:hover:not(.text-dark),
 .content a.h6:hover:not(.text-dark) {
   color: #01CFC9;
+}
+
+.text-orange {
+  color: #FF743C;
 }
 
 .bg-dark {
@@ -1207,6 +1225,72 @@ a.text-dark:hover,
 
 .title {
   font-family: Clearface-Regular;
+  font-size: 41.05px;
+}
+
+#intro-img {
+  width: 400px;
+}
+
+#marsmellow_img {
+  width: 300px;
+}
+
+h4.font-weight-light.title.sub-title {
+  font-size: 23.04px;
+}
+
+.sub-title-1 {
+  font-size: 36.49px;
+}
+
+.margin-top {
+  margin-top: 18px;
+}
+
+.sub_section-1 {
+  margin-bottom: 70%;
+  margin-left: 35px;
+}
+
+.sub_section-2 {
+  margin-left: 35px;
+  margin-bottom: 36%;
+}
+
+.sub_section-3 {
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+.margin-left {
+  padding: 12px;
+}
+
+img#service-icon {
+  width: 90%;
+}
+
+.icon-section {
+  /* width: 80% !important; */
+}
+
+@media (max-width: 991px) {
+  .icon-section {
+    margin-left: 25px;
+    padding-right: 100px;
+    padding-left: 150px;
+  }
+}
+
+.service-icon #service-icon {
+  width: 75%;
+}
+
+@media (max-width: 575px) {
+  .service-icon #service-icon {
+    width: 30%;
+  }
 }
 
 .navbar-brand {
@@ -1358,7 +1442,7 @@ a.text-dark:hover,
 
 .navigation .nav-item .nav-link {
   padding: 20px 23px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1;
   font-weight: 500;
   position: relative;
@@ -1381,11 +1465,11 @@ a.text-dark:hover,
 
 .navigation .navbar-light .navbar-nav .nav-link:focus,
 .navigation .navbar-light .navbar-nav .nav-link:hover {
-  color: #000;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .navigation .navbar-light .navbar-nav:hover .nav-item:not(:hover) .nav-link {
-  color: rgba(0, 0, 0, 0.5);
+  color: #000;
 }
 
 .navigation .dropdown-toggle {
@@ -1665,7 +1749,7 @@ a.text-dark:hover,
 }
 
 .banner .banner-title {
-  font-size: 57px;
+  font-size: 58.45px;
   font-weight: 400 !important;
   line-height: 1.2;
   letter-spacing: -1.6px;
@@ -1673,25 +1757,25 @@ a.text-dark:hover,
 
 @media (max-width: 991px) {
   .banner .banner-title {
-    font-size: 50px;
+    font-size: 58.45px;
   }
 }
 
 @media (max-width: 767px) {
   .banner .banner-title {
-    font-size: 44px;
+    font-size: 51.96px;
   }
 }
 
 @media (max-width: 575px) {
   .banner .banner-title {
-    font-size: 38px;
+    font-size: 46.18px;
   }
 }
 
 @media (max-width: 480px) {
   .banner .banner-title {
-    font-size: 36px;
+    font-size: 41.05px;
   }
 }
 

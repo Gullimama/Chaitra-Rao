@@ -162,3 +162,35 @@
 		}, 3e3), s()
 	})
 }(jQuery);
+
+gsap.registerPlugin(ScrollTrigger);
+gsap.to("#marsmellow_img", {
+	y: -500,
+	duration: 8,
+	scrollTrigger: {
+		trigger: ".sub_section-1",
+		start: "top 50%",
+		end: "top 30%",
+		scrub: 3
+	}
+})
+gsap.to("#marsmellow_img", {
+	y: 160,
+	duration: 8,
+	scrollTrigger: {
+		trigger: ".sub_section-2",
+		start: "top 50%",
+		end: "top 30%",
+		scrub: 4
+	}
+})
+gsap.to("#marsmellow_img", {
+	y: 580,
+	duration: 8,
+	scrollTrigger: {
+		trigger: ".sub_section-3",
+		start: "top 50%",
+		end: "top 30%",
+		scrub: 5
+	}
+})
